@@ -34,6 +34,27 @@
     transform: rotate(-1deg);
   }
 
+  &__mobile {
+    display: none;
+    position: absolute;
+    background-color: $menuColor;
+    width: 250px;
+    border-radius: 4px;
+    z-index: 1;
+
+    &--batterries {
+      top: 0;
+    }
+
+    &--connection {
+      bottom: 120px;
+    }
+
+    & p {
+      padding: 20px 10px;
+    }
+  }
+
   &__batterries {
     position: absolute;
     width: 30%;
@@ -93,18 +114,30 @@
         position: absolute;
         left: calc(50% + 50px);
         top: calc(50% + 20px);
+
+        &:hover + .tech__mobile--batterries {
+          display: block;
+        }
       }
 
       &__sensor {
         position: absolute;
         left: calc(50% - 80px);
         top: calc(50% - 70px);
+
+        &:hover + .tech__mobile--sensor {
+          display: block;
+        }
       }
 
       &__connection {
         position: absolute;
         left: calc(50% - 150px);
         top: calc(50% + 150px);
+
+        &:hover + .tech__mobile--connection {
+          display: block;
+        }
       }
 
       &:hover {

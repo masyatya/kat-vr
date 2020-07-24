@@ -16,6 +16,14 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
+  &__object {
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
   &__image {
     margin-bottom: 30px;
   }
