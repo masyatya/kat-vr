@@ -28,10 +28,16 @@
   }
 
   &__ellipse {
-    position: relative;
-    top: -50px;
-    left: 65px;
+    position: absolute;
+    top: 44px;
+    left: calc(50% - 298px / 2 - 14px);
+    background-image: url(../images/tech/ellipse.png);
+    background-position: 2% center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 201px;
     transform: rotate(-1deg);
+
   }
 
   &__mobile {
@@ -63,6 +69,10 @@
   }
 
   .vector-angle {
+    background-image: url(../images/tech/vector-angle.png);
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 241px;
     position: absolute;
     left: calc(50%);
     top: -50px;
@@ -76,6 +86,10 @@
   }
 
   .vector-angle-short {
+    background-image: url(../images/tech/vector-angle-short.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 70px;
     position: absolute;
     left: calc(50% - 400px);
     top: -50px;
@@ -89,6 +103,10 @@
   }
 
   .vector-z {
+    background-image: url(../images/tech/vector-z.png);
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 108px;
     position: absolute;
     left: calc(50% - 298px / 2 - 127px);
     top: 60px;

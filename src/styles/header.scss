@@ -15,6 +15,7 @@
 
     &::before {
       position: absolute;
+      bottom: 2px;
       display: block;
       content: url(../images/header/Polygon.svg);
       left: calc(100% + 3px);

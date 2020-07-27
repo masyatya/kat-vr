@@ -3,11 +3,14 @@
   justify-content: space-between;
   background-color: $backgroundColor;
 
+
   &__heading {
     margin: 12px 0 24px;
   }
 
   &__info {
+    margin-right: 30px;
+
     & p {
       margin-bottom: 50px;
     }
@@ -62,6 +65,10 @@
 
     &__heading {
       margin-bottom: -100px;
+    }
+
+    &__info {
+      margin-right: 0;
     }
 
     &__info a,
