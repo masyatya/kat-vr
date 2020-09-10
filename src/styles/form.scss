@@ -3,7 +3,7 @@
   flex-direction: column;
 
   &__input {
-    padding: 15px 0;
+    padding: 15px 5px;
     margin-bottom: 24px;
     outline: none;
     border: none;
@@ -19,7 +19,7 @@
 
   &__textarea {
     resize: none;
-    padding: 15px 0 65px;
+    padding: 15px 5px 65px;
     border: none;
     outline: none;
     color: $regularColor;
